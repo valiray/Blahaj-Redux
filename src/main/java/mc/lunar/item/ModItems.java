@@ -11,7 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item BLAHAJ = registerItem("blue_shark", new Item(new FabricItemSettings()));
+    public static final Item BLAHAJ_ID = registerItem("blue_shark", new Item(new FabricItemSettings()));
     public static final Item ACE_BLAHAJ = registerItem("ace_shark", new Item(new FabricItemSettings()));
     public static final Item AGENDER_BLAHAJ = registerItem("agender_shark", new Item(new FabricItemSettings()));
     public static final Item ARO_BLAHAJ = registerItem("aro_shark", new Item(new FabricItemSettings()));
@@ -38,7 +38,7 @@ public class ModItems {
     public static final Item SEAL = registerItem("seal", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(BLAHAJ);
+        entries.add(BLAHAJ_ID);
         entries.add(ACE_BLAHAJ);
         entries.add(AGENDER_BLAHAJ);
         entries.add(ARO_BLAHAJ);
@@ -66,11 +66,11 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(Blahaj.MOD, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(Blahaj.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        Blahaj.LOGGER.info("Registering Mod Items for " + Blahaj.MOD);
+        Blahaj.LOGGER.info("Registering Mod Items for " + Blahaj.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
