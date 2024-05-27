@@ -11,13 +11,6 @@
 	"item.blahaj.killer_whale.tooltip": "a.k.a. Blavingad. Holds a stack of items.",
 	"item.blahaj.seal": "Seal plushie",
 	"item.blahaj.Seal.tooltip": "a.k.a. Sorensen",
-	"item.blahaj.bread": "Bread Pillow",
-
-	"tooltip.blahaj.owner.craft": "Crafted by %s",
-	"tooltip.blahaj.owner.rename": "%s of %s",
-
-	"block.blahaj.blahaj_backpack": "Blahaj Traveler's Backpack",
-
-	"gamerule.blahaj.contained.enable_use": "Enable using contained items",
-	"gamerule.blahaj.contained.enable_use.description": "§6⚠ Experimental§r and likely broken, use at your own risks. Relies on the blahaj:blavingad_usable item tag"
+	"item.blahaj.bread": "Baguette",
+	"item.blahaj.bread.tooltip": "Nicole made me add this"
 }
