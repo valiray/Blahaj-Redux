@@ -11,11 +11,11 @@ import net.minecraft.world.World;
 import java.util.List;
 
 
-public class CuddlyItem extends BlockItem {
+public class CItem extends BlockItem {
 
     private final Text subtitle;
 
-    public CuddlyItem(Block block, Settings settings, String subtitle) {
+    public CItem(Block block, Settings settings, String subtitle) {
         super(block, settings);
         this.subtitle = subtitle == null ? null : Text.translatable(subtitle).formatted(Formatting.GRAY);
     }

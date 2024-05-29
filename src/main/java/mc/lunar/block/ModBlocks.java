@@ -82,54 +82,54 @@ public class ModBlocks {
 
 
     public static void register() {
-            GRAY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, GRAY_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, BLAHAJ_ID, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            BAGUETTE_BLOCK = Registry.register(Registries.BLOCK, BAGUETTE, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            GRAY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, GRAY_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, BLAHAJ_ID, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            BAGUETTE_BLOCK = Registry.register(Registries.BLOCK, BAGUETTE, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
 
-            ACE_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, ACE_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            AGENDER_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, AGENDER_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            ARO_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, ARO_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            AROACE_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, AROACE_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            TRANS_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, TRANS_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            BI_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, BI_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            DEMIBOY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, DEMIBOY_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            DEMIGIRL_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, DEMIGIRL_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            ENBY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, ENBY_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            RAINBOWDASH_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, RAINBOWDASH_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            GENDERFLUID_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, GENDERFLUID_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            GENDERQUEER_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, GENDERQUEER_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            GRAYROSE_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, GRAYROSE_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            INTERSEX_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, INTERSEX_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            LESPONY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, LESPONY_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            PAN_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, PAN_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            PINK_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, PINK_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            POLY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, POLY_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
-            PRIDE_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, PRIDE_BLAHAJ, new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            ACE_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, ACE_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            AGENDER_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, AGENDER_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            ARO_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, ARO_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            AROACE_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, AROACE_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            TRANS_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, TRANS_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            BI_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, BI_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            DEMIBOY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, DEMIBOY_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            DEMIGIRL_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, DEMIGIRL_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            ENBY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, ENBY_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            RAINBOWDASH_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, RAINBOWDASH_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            GENDERFLUID_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, GENDERFLUID_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            GENDERQUEER_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, GENDERQUEER_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            GRAYROSE_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, GRAYROSE_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            INTERSEX_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, INTERSEX_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            LESPONY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, LESPONY_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            PAN_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, PAN_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            PINK_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, PINK_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            POLY_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, POLY_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+            PRIDE_BLAHAJ_BLOCK = Registry.register(Registries.BLOCK, PRIDE_BLAHAJ, new CBlock(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
 
 
 
-            GRAY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, GRAY_BLAHAJ, new CuddlyItem(GRAY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.gray_shark.tooltip"));
-            BLAHAJ_ITEM = Registry.register(Registries.ITEM, BLAHAJ_ID, new CuddlyItem(BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.blue_shark.tooltip"));
-            BAGUETTE_ITEM = Registry.register(Registries.ITEM, BAGUETTE, new CuddlyItem(BAGUETTE_BLOCK, new Item.Settings().maxCount(1), null));
-            ACE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, ACE_BLAHAJ, new CuddlyItem(ACE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.ace_shark.tooltip"));
-            AGENDER_BLAHAJ_ITEM = Registry.register(Registries.ITEM, AGENDER_BLAHAJ, new CuddlyItem(AGENDER_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.agender_shark.tooltip"));
-            ARO_BLAHAJ_ITEM = Registry.register(Registries.ITEM, ARO_BLAHAJ, new CuddlyItem(ARO_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.aro_shark.tooltip"));
-            AROACE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, AROACE_BLAHAJ, new CuddlyItem(AROACE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.aroace_shark.tooltip"));
-            TRANS_BLAHAJ_ITEM = Registry.register(Registries.ITEM, TRANS_BLAHAJ, new CuddlyItem(TRANS_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.trans_shark.tooltip"));
-            BI_BLAHAJ_ITEM = Registry.register(Registries.ITEM, BI_BLAHAJ, new CuddlyItem(BI_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.bi_shark.tooltip"));
-            DEMIBOY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, DEMIBOY_BLAHAJ, new CuddlyItem(DEMIBOY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.demiboy_shark.tooltip"));
-            DEMIGIRL_BLAHAJ_ITEM = Registry.register(Registries.ITEM, DEMIGIRL_BLAHAJ, new CuddlyItem(DEMIGIRL_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.demigirl_shark.tooltip"));
-            ENBY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, ENBY_BLAHAJ, new CuddlyItem(ENBY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.enby_shark.tooltip"));
-            RAINBOWDASH_BLAHAJ_ITEM = Registry.register(Registries.ITEM, RAINBOWDASH_BLAHAJ, new CuddlyItem(RAINBOWDASH_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.gay_shark.tooltip"));
-            GENDERFLUID_BLAHAJ_ITEM = Registry.register(Registries.ITEM, GENDERFLUID_BLAHAJ, new CuddlyItem(GENDERFLUID_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.genderfluid_shark.tooltip"));
-            GENDERQUEER_BLAHAJ_ITEM = Registry.register(Registries.ITEM, GENDERQUEER_BLAHAJ, new CuddlyItem(GENDERQUEER_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.genderqueer_shark.tooltip"));
-            GRAYROSE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, GRAYROSE_BLAHAJ, new CuddlyItem(GRAYROSE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.greyrose_shark.tooltip"));
-            INTERSEX_BLAHAJ_ITEM = Registry.register(Registries.ITEM, INTERSEX_BLAHAJ, new CuddlyItem(INTERSEX_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.intersex_shark.tooltip"));
-            LESPONY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, LESPONY_BLAHAJ, new CuddlyItem(LESPONY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.lesbian_shark.tooltip"));
-            PAN_BLAHAJ_ITEM = Registry.register(Registries.ITEM, PAN_BLAHAJ, new CuddlyItem(PAN_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.pan_shark.tooltip"));
-            PINK_BLAHAJ_ITEM = Registry.register(Registries.ITEM, PINK_BLAHAJ, new CuddlyItem(PINK_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.pink_shark.tooltip"));
-            POLY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, POLY_BLAHAJ, new CuddlyItem(POLY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.poly_shark.tooltip"));
-            PRIDE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, PRIDE_BLAHAJ, new CuddlyItem(PRIDE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.pride_shark.tooltip"));
+            GRAY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, GRAY_BLAHAJ, new CItem(GRAY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.gray_shark.tooltip"));
+            BLAHAJ_ITEM = Registry.register(Registries.ITEM, BLAHAJ_ID, new CItem(BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.blue_shark.tooltip"));
+            BAGUETTE_ITEM = Registry.register(Registries.ITEM, BAGUETTE, new CItem(BAGUETTE_BLOCK, new Item.Settings().maxCount(1), null));
+            ACE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, ACE_BLAHAJ, new CItem(ACE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.ace_shark.tooltip"));
+            AGENDER_BLAHAJ_ITEM = Registry.register(Registries.ITEM, AGENDER_BLAHAJ, new CItem(AGENDER_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.agender_shark.tooltip"));
+            ARO_BLAHAJ_ITEM = Registry.register(Registries.ITEM, ARO_BLAHAJ, new CItem(ARO_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.aro_shark.tooltip"));
+            AROACE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, AROACE_BLAHAJ, new CItem(AROACE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.aroace_shark.tooltip"));
+            TRANS_BLAHAJ_ITEM = Registry.register(Registries.ITEM, TRANS_BLAHAJ, new CItem(TRANS_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.trans_shark.tooltip"));
+            BI_BLAHAJ_ITEM = Registry.register(Registries.ITEM, BI_BLAHAJ, new CItem(BI_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.bi_shark.tooltip"));
+            DEMIBOY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, DEMIBOY_BLAHAJ, new CItem(DEMIBOY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.demiboy_shark.tooltip"));
+            DEMIGIRL_BLAHAJ_ITEM = Registry.register(Registries.ITEM, DEMIGIRL_BLAHAJ, new CItem(DEMIGIRL_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.demigirl_shark.tooltip"));
+            ENBY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, ENBY_BLAHAJ, new CItem(ENBY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.enby_shark.tooltip"));
+            RAINBOWDASH_BLAHAJ_ITEM = Registry.register(Registries.ITEM, RAINBOWDASH_BLAHAJ, new CItem(RAINBOWDASH_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.gay_shark.tooltip"));
+            GENDERFLUID_BLAHAJ_ITEM = Registry.register(Registries.ITEM, GENDERFLUID_BLAHAJ, new CItem(GENDERFLUID_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.genderfluid_shark.tooltip"));
+            GENDERQUEER_BLAHAJ_ITEM = Registry.register(Registries.ITEM, GENDERQUEER_BLAHAJ, new CItem(GENDERQUEER_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.genderqueer_shark.tooltip"));
+            GRAYROSE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, GRAYROSE_BLAHAJ, new CItem(GRAYROSE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.greyrose_shark.tooltip"));
+            INTERSEX_BLAHAJ_ITEM = Registry.register(Registries.ITEM, INTERSEX_BLAHAJ, new CItem(INTERSEX_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.intersex_shark.tooltip"));
+            LESPONY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, LESPONY_BLAHAJ, new CItem(LESPONY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.lesbian_shark.tooltip"));
+            PAN_BLAHAJ_ITEM = Registry.register(Registries.ITEM, PAN_BLAHAJ, new CItem(PAN_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.pan_shark.tooltip"));
+            PINK_BLAHAJ_ITEM = Registry.register(Registries.ITEM, PINK_BLAHAJ, new CItem(PINK_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.pink_shark.tooltip"));
+            POLY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, POLY_BLAHAJ, new CItem(POLY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.poly_shark.tooltip"));
+            PRIDE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, PRIDE_BLAHAJ, new CItem(PRIDE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.pride_shark.tooltip"));
     }
 
 }
