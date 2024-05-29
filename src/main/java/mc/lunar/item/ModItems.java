@@ -18,7 +18,6 @@ public class ModItems {
     public static final Item AROACE_BLAHAJ = registerItem("aroace_shark", new Item(new FabricItemSettings()));
     public static final Item TRANS_BLAHAJ = registerItem("trans_shark", new Item(new FabricItemSettings()));
     public static final Item BI_BLAHAJ = registerItem("bi_shark", new Item(new FabricItemSettings()));
-    public static final Item BLUE_WHALE = registerItem("blue_whale", new Item(new FabricItemSettings()));
     public static final Item BAGUETTE = registerItem("bread", new Item(new FabricItemSettings()));
     public static final Item DEMIBOY_BLAHAJ = registerItem("demiboy_shark", new Item(new FabricItemSettings()));
     public static final Item DEMIGIRL_BLAHAJ = registerItem("demigirl_shark", new Item(new FabricItemSettings()));
@@ -29,13 +28,11 @@ public class ModItems {
     public static final Item GRAY_BLAHAJ = registerItem("gray_shark", new Item(new FabricItemSettings()));
     public static final Item GRAYROSE_BLAHAJ = registerItem("greyrose_shark", new Item(new FabricItemSettings()));
     public static final Item INTERSEX_BLAHAJ = registerItem("intersex_shark", new Item(new FabricItemSettings()));
-    public static final Item KILLER_WHALE = registerItem("killer_whale", new Item(new FabricItemSettings()));
     public static final Item LESPONY_BLAHAJ = registerItem("lesbian_shark", new Item(new FabricItemSettings()));
     public static final Item PAN_BLAHAJ = registerItem("pan_shark", new Item(new FabricItemSettings()));
     public static final Item PINK_BLAHAJ = registerItem("pink_shark", new Item(new FabricItemSettings()));
     public static final Item POLY_BLAHAJ = registerItem("poly_shark", new Item(new FabricItemSettings()));
     public static final Item PRIDE_BLAHAJ = registerItem("pride_shark", new Item(new FabricItemSettings()));
-    public static final Item SEAL = registerItem("seal", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(BLAHAJ_ID);
@@ -46,7 +43,6 @@ public class ModItems {
         entries.add(TRANS_BLAHAJ);
         entries.add(BI_BLAHAJ);
         entries.add(BAGUETTE);
-        entries.add(BLUE_WHALE);
         entries.add(DEMIBOY_BLAHAJ);
         entries.add(DEMIGIRL_BLAHAJ);
         entries.add(ENBY_BLAHAJ);
@@ -56,13 +52,11 @@ public class ModItems {
         entries.add(GRAY_BLAHAJ);
         entries.add(GRAYROSE_BLAHAJ);
         entries.add(INTERSEX_BLAHAJ);
-        entries.add(KILLER_WHALE);
         entries.add(LESPONY_BLAHAJ);
         entries.add(PAN_BLAHAJ);
         entries.add(PINK_BLAHAJ);
         entries.add(POLY_BLAHAJ);
         entries.add(PRIDE_BLAHAJ);
-        entries.add(SEAL);
     }
 
     private static Item registerItem(String name, Item item) {

@@ -21,7 +21,6 @@ public class ModItemGroups {
                         entries.add(ModItems.AROACE_BLAHAJ);
                         entries.add(ModItems.TRANS_BLAHAJ);
                         entries.add(ModItems.BI_BLAHAJ);
-                        entries.add(ModItems.BLUE_WHALE);
                         entries.add(ModItems.BAGUETTE);
                         entries.add(ModItems.DEMIBOY_BLAHAJ);
                         entries.add(ModItems.DEMIGIRL_BLAHAJ);
@@ -32,13 +31,11 @@ public class ModItemGroups {
                         entries.add(ModItems.GRAY_BLAHAJ);
                         entries.add(ModItems.GRAYROSE_BLAHAJ);
                         entries.add(ModItems.INTERSEX_BLAHAJ);
-                        entries.add(ModItems.KILLER_WHALE);
                         entries.add(ModItems.LESPONY_BLAHAJ);
                         entries.add(ModItems.PAN_BLAHAJ);
                         entries.add(ModItems.PINK_BLAHAJ);
                         entries.add(ModItems.POLY_BLAHAJ);
                         entries.add(ModItems.PRIDE_BLAHAJ);
-                        entries.add(ModItems.SEAL);
 
 
                     }).build());
