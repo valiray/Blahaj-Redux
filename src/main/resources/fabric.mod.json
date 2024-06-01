@@ -3,9 +3,9 @@
 	"id": "blahaj",
 	"version": "${version}",
 	"name": "blahaj",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "SHORK :3",
 	"authors": [
-		"Me!"
+		"Valiray"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -19,9 +19,6 @@
 			"mc.lunar.Blahaj"
 		]
 	},
-	"mixins": [
-		"blahaj.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.1",
