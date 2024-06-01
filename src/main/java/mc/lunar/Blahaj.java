@@ -1,6 +1,5 @@
 package mc.lunar;
 
-import mc.lunar.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,7 +16,6 @@ public class Blahaj implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-		//ModBlocks.register();
 		ModItems.registerModItems();
 	}
 }
