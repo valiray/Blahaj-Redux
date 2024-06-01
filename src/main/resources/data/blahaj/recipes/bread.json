@@ -1,11 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 0 ",
+    " O ",
     "O#O",
     " O "
   ],
   "key": {
+    "#": {
+      "item": "minecraft:bread"
+    },
     "O": {
       "item": "minecraft:orange_wool"
     }
