@@ -1,5 +1,6 @@
 package mc.lunar.block;
 
+import mc.lunar.item.CItem;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;

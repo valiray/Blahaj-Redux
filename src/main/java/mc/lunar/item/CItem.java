@@ -1,4 +1,4 @@
-package mc.lunar.block;
+package mc.lunar.item;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.block.Block;
