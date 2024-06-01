@@ -1,8 +1,10 @@
 package mc.lunar.block;
 
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -130,8 +132,16 @@ public class ModBlocks {
             PINK_BLAHAJ_ITEM = Registry.register(Registries.ITEM, PINK_BLAHAJ, new CItem(PINK_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.pink_shark.tooltip"));
             POLY_BLAHAJ_ITEM = Registry.register(Registries.ITEM, POLY_BLAHAJ, new CItem(POLY_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.poly_shark.tooltip"));
             PRIDE_BLAHAJ_ITEM = Registry.register(Registries.ITEM, PRIDE_BLAHAJ, new CItem(PRIDE_BLAHAJ_BLOCK, new Item.Settings().maxCount(1), "block.blahaj.pride_shark.tooltip"));
+
+
+
     }
 
+    public static void registerClient() {
+        BlockRenderLayerMap.INSTANCE.putBlock(GRAY_BLAHAJ_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BLAHAJ_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BAGUETTE_BLOCK, RenderLayer.getCutout());
+    }
 }
 
 

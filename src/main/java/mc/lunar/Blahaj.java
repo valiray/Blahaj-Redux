@@ -16,8 +16,8 @@ public class Blahaj implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		//ModItemGroups.registerItemGroups();
-		ModBlocks.register();
-		//ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
+		//ModBlocks.register();
+		ModItems.registerModItems();
 	}
 }
