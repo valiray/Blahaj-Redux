@@ -1,6 +1,6 @@
-package mc.lunar.item;
+package mc.lunar.Blahaj.item;
 
-import mc.lunar.Blahaj;
+import mc.lunar.Blahaj.Blahaj;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

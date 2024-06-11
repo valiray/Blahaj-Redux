@@ -1,11 +1,11 @@
-package mc.lunar;
+package mc.lunar.Blahaj;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import mc.lunar.item.ModItemGroups;
-import mc.lunar.item.ModItems;
+import mc.lunar.Blahaj.item.ModItemGroups;
+import mc.lunar.Blahaj.item.ModItems;
 
 
 

@@ -2,21 +2,21 @@
 	"schemaVersion": 1,
 	"id": "blahaj",
 	"version": "${version}",
-	"name": "blahaj",
+	"name": "Blahaj Redux",
 	"description": "SHORK :3",
 	"authors": [
 		"Valiray"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/valiray/blahaj-fix",
+		"sources": "https://github.com/valiray/blahaj-fix"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/blahaj/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"mc.lunar.Blahaj"
+          "mc.lunar.Blahaj.Blahaj"
 		]
 	},
 	"depends": {
@@ -24,8 +24,5 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
