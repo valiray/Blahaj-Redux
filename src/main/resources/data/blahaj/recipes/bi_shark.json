@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "MS ",
+    "PB "
+  ],
+  "key": {
+    "S": {
+      "item": "blahaj:blue_shark"
+    },
+    "M": {
+      "item": "minecraft:magenta_dye"
+    },
+    "P": {
+      "item": "minecraft:pink_dye"
+    },
+    "B": {
+      "item": "minecraft:magenta_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:bi_shark",
+    "count": 1
+  }
+}
