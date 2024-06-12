@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "LBW",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "blahaj:blue_shark"
+    },
+    "L": {
+      "item": "minecraft:Lime_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:agender_shark",
+    "count": 1
+  }
+}
