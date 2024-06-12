@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "GB ",
+    "WP "
+  ],
+  "key": {
+    "B": {
+      "item": "blahaj:blue_shark"
+    },
+    "P": {
+      "item": "minecraft:purple_dye"
+    },
+    "G": {
+      "item": "minecraft:gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:ace_shark",
+    "count": 1
+  }
+}
