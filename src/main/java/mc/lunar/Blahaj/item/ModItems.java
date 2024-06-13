@@ -66,6 +66,5 @@ public class ModItems {
     public static void registerModItems() {
         Blahaj.LOGGER.info("Registering Mod Items for " + Blahaj.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }
