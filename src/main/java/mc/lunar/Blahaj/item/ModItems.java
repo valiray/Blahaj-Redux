@@ -14,7 +14,6 @@ public class ModItems {
     public static final Item AGENDER_BLAHAJ = registerItem("agender_shark", new Item(new FabricItemSettings()));
     public static final Item ARO_BLAHAJ = registerItem("aro_shark", new Item(new FabricItemSettings()));
     public static final Item AROACE_BLAHAJ = registerItem("aroace_shark", new Item(new FabricItemSettings()));
-    public static final Item TRANS_BLAHAJ = registerItem("trans_shark", new Item(new FabricItemSettings()));
     public static final Item BI_BLAHAJ = registerItem("bi_shark", new Item(new FabricItemSettings()));
     public static final Item BAGUETTE = registerItem("bread", new Item(new FabricItemSettings()));
     public static final Item DEMIBOY_BLAHAJ = registerItem("demiboy_shark", new Item(new FabricItemSettings()));
@@ -31,6 +30,7 @@ public class ModItems {
     public static final Item PINK_BLAHAJ = registerItem("pink_shark", new Item(new FabricItemSettings()));
     public static final Item POLY_BLAHAJ = registerItem("poly_shark", new Item(new FabricItemSettings()));
     public static final Item PRIDE_BLAHAJ = registerItem("pride_shark", new Item(new FabricItemSettings()));
+    public static final Item TRANS_BLAHAJ = registerItem("trans_shark", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(BLAHAJ_ID);

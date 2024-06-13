@@ -19,7 +19,6 @@ public class ModItemGroups {
                         entries.add(ModItems.AGENDER_BLAHAJ);
                         entries.add(ModItems.ARO_BLAHAJ);
                         entries.add(ModItems.AROACE_BLAHAJ);
-                        entries.add(ModItems.TRANS_BLAHAJ);
                         entries.add(ModItems.BI_BLAHAJ);
                         entries.add(ModItems.BAGUETTE);
                         entries.add(ModItems.DEMIBOY_BLAHAJ);
@@ -36,6 +35,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_BLAHAJ);
                         entries.add(ModItems.POLY_BLAHAJ);
                         entries.add(ModItems.PRIDE_BLAHAJ);
+                        entries.add(ModItems.TRANS_BLAHAJ);
 
 
                     }).build());
