@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WBP",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "blahaj:blue_shark"
+    },
+    "P": {
+      "item": "minecraft:pink_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:demigirl_shark",
+    "count": 1
+  }
+}
