@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "WS ",
+    " N "
+  ],
+  "key": {
+    "S": {
+      "item": "blahaj:blue_shark"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "L": {
+      "item": "minecraft:lime_dye"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:gay_shark",
+    "count": 1
+  }
+}
