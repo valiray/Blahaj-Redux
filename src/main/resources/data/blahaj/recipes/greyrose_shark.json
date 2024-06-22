@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "PB ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "blahaj:blue_shark"
+    },
+    "G": {
+      "item": "minecraft:gray_dye"
+    },
+    "P": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:grayrose_shark",
+    "count": 1
+  }
+}
+
+
+

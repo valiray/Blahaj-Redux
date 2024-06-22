@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "WB ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "blahaj:blue_shark"
+    },
+    "G": {
+      "item": "minecraft:gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:demiboy_shark",
+    "count": 1
+  }
+}

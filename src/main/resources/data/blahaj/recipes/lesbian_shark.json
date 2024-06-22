@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    "WB ",
+    " P "
+  ],
+  "key": {
+    "B": {
+      "item": "blahaj:blue_shark"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "P": {
+      "item": "minecraft:pink_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:lesbian_shark",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Y O",
+    " B ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "blahaj:blue_shark"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "blahaj:aroace_shark",
+    "count": 1
+  }
+}
