@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "mc.lunar.Blahaj.Blahaj"
+			"mc.starnova.Blahaj.Blahaj"
 		]
 	},
 	"depends": {

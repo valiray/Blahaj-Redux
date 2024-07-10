@@ -1,11 +1,12 @@
-package mc.lunar.Blahaj;
+package mc.starnova.Blahaj;
 
+import mc.starnova.Blahaj.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import mc.lunar.Blahaj.item.ModItemGroups;
-import mc.lunar.Blahaj.item.ModItems;
+import mc.starnova.Blahaj.item.ModItemGroups;
+import mc.starnova.Blahaj.item.ModItems;
 
 
 
@@ -16,6 +17,7 @@ public class Blahaj implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-		ModItems.registerModItems();
+//		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
